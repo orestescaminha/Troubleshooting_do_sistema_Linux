@@ -253,8 +253,9 @@ systemd-analyze blame
 # Travamentos
 journalctl | grep -Ei "segfault|crash"
 ```
+---
 
-## 15. Se você suspeita de comprometimento de segurança
+## Se você suspeita de comprometimento de segurança
 Além dos passos acima, é útil verificar:
 * processos executados recentemente (`ps auxf`);
 * tarefas agendadas (`crontab -l`, `/etc/cron*`);
@@ -264,7 +265,7 @@ Além dos passos acima, é útil verificar:
 * alterações recentes em arquivos críticos (`find /etc -mtime -7`).
 
 ## 16. Solicite ajuda da Inteligencia Artificial
-Execute a bash aaixo:
+Execute a bash abaixo:
 ```bash
 # Redireciona a saida de cada linha para o arquivo diag.txt separando por seções.
 {
