@@ -1,6 +1,6 @@
 # Solução de Problemas do Sistema Linux
 
-Os logs no Linux funcionam como um registro detalhado de eventos e ações que ocorrem no sistema. Por meio desses registros, os administradores podem rastrear atividades, detectar anomalias, solucionar problemas e manter a integridade do sistema. As ferramentas `journalctl` e `dmesg` são essenciais para interagir com esses logs, permitindo não apenas o acesso a informações passadas, mas também o monitoramento em tempo real da atividade do sistema. A seguir, um **passo a passo** profissional como usar essas ferramentas para analisar os logs do sistema juntamente com informações sobre consumo de recursos e eventos de segurança.
+Os logs no Linux funcionam como um registro detalhado de eventos e ações que ocorrem no sistema. Por meio desses registros, os administradores podem rastrear atividades, detetar anomalias, solucionar problemas e manter a integridade do sistema. As ferramentas `journalctl` e `dmesg` são essenciais para interagir com esses logs, permitindo não apenas o acesso a informações passadas, mas também o monitoramento em tempo real da atividade do sistema. A seguir, um **passo a passo** profissional como usar essas ferramentas para analisar os logs do sistema juntamente com informações sobre consumo de recursos e eventos de segurança.
 
 ## 1. Descubra quando ocorreu o problema
 Primeiro, descubra aproximadamente o horário em que ocorreu o problema.
