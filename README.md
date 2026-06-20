@@ -88,6 +88,7 @@ Exemplo:
 Out of memory: Killed process 4567 firefox
 ```
 Isso significa que o kernel matou um processo.
+
 ---
 
 # 5. Verifique falhas de disco
@@ -152,6 +153,7 @@ Ou:
 iotop
 ```
 para uso do disco.
+
 ---
 
 # 9. Verifique logs de autenticação
