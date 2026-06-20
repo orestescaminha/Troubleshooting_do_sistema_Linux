@@ -265,6 +265,8 @@ Além dos passos acima, é útil verificar:
 * conexões de rede ativas (`ss -tulpn`);
 * alterações recentes em arquivos críticos (`find /etc -mtime -7`).
 
+---
+
 ## 15. Solicite ajuda da Inteligencia Artificial
 Execute a bash abaixo:
 ```bash
